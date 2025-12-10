@@ -4,6 +4,6 @@ import com.app.dtos.UserDTO;
 
 public interface UserService {
 	
-	UserDTO registerUser(UserDTO userDto);
+	public UserDTO registerUser(UserDTO userDto);
 
 }
